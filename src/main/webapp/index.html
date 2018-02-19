@@ -16,7 +16,9 @@
 	   <script src="js/ui/ui.js"></script>
     </head>
 	<body ng-controller="listaTelefonicaCtrl">
+	
 	    <div class="jumbotron">
+		   <h1><label>Temperatura: {{temperatura}} °C</label></h1><br><br>
 	        <input class="form-control" type="text" ng-model="criterioDeBusca" placeholder="O que você está buscando?"/>
 	        <table ng-show="contatos.length > 0" class="table table-striped">
 	            <tr>

@@ -24,7 +24,7 @@ public class ContatoController {
 	@Autowired
 	private ContatoService contatoService;
 
-	@RequestMapping( value = "/contatos", method = RequestMethod.GET)
+	@RequestMapping( value = "/contatos", method = RequestMethod.GET )
 	public void listaContatos(HttpServletResponse resp) throws ServletException, IOException {
 		ObjectMapper mapper = new ObjectMapper();
 		String json = mapper.writeValueAsString(contatoService.listaContatos());

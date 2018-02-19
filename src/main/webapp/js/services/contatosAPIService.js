@@ -12,11 +12,11 @@ angular.module("listaTelefonica").factory("contatosAPI", function($http, config)
 	};
 
 	var _acionarLed = function(condition) {
-	    return $http.post("http://192.168.1.3/LED=" + condition);
+	    return $http.get("http://192.168.1.5/LED=" + condition);
 	}
 
 	var _lerTemperatura = function() {
-	    return $http.get("http://192.168.1.3/TEMP");
+	    return $http.get("http://192.168.1.5/TEMP");
 	}
 
 	return {

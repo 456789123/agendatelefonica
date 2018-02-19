@@ -1,8 +1,8 @@
 angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope, contatosAPI, operadorasAPI, $interval) {
     $scope.contatos = [];
     $scope.operadoras = [];
-    $scope.conditionLed = "OFF";
-//    $scope.temperatura = [];
+    $scope.conditionLed = "ON";
+    $scope.temperatura = 25.00;
 
     var carregarContatos = function( ) {
         contatosAPI.getContatos().then(function(success) {
@@ -68,13 +68,13 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
 	})
     };
 
-//    $interval(function(){
-//	contatosAPI.lerTemperatura().then(function(success) {
-//	    $scope.temperatura = success.data;
-//	}, function(error) {
-//	    console.log("Aconteceu um problema!!");
-//	})
-//    }, 3000);
+    $interval(function(){
+		contatosAPI.lerTemperatura().then(function(success) {
+			$scope.temperatura = (success.data.temperature[0]).toFixed(2);
+		}, function(error) {
+		    console.log("Aconteceu um problema!!");
+		})
+    }, 3000);
 
     carregarContatos();
     carregarOperadoras();
