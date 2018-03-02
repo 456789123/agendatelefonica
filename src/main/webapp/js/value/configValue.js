@@ -1,3 +1,3 @@
 angular.module("listaTelefonica").value("config", {
-    baseUrl: ""
+    baseUrl: "/agendatelefonica-0.0.1-SNAPSHOT"
 });
