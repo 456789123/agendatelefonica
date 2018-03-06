@@ -14,6 +14,11 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
+
 @Entity
 @Table(name="TB_CONTATO")
 @SequenceGenerator( name = "co_seq_contato", sequenceName = "co_seq_contato", allocationSize = 1, initialValue = 1)
@@ -40,38 +45,5 @@ public class Contato implements Serializable {
 	private Operadora operadora;
 
 
-
-	public Long getCodigo() {
-		return codigo;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public String getTelefone() {
-		return telefone;
-	}
-	public Calendar getDataCadastro() {
-		return dataCadastro;
-	}
-	public void setCodigo(Long codigo) {
-		this.codigo = codigo;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
-	public void setDataCadastro(Calendar dataCadastro) {
-		this.dataCadastro = dataCadastro;
-	}
-	public Operadora getOperadora() {
-		return operadora;
-	}
-	public void setOperadora(Operadora operadora) {
-		this.operadora = operadora;
-	}
-
-	
 
 }

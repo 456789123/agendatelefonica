@@ -8,6 +8,13 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter @Setter
+
 @Entity
 @Table(name="TB_OPERADORA")
 public class Operadora implements Serializable {
@@ -27,31 +34,6 @@ public class Operadora implements Serializable {
 	@Column(name="PRECO")
 	private BigDecimal preco;
 
-
-	public Long getCodigo() {
-		return codigo;
-	}
-	public String getNomeOperadora() {
-		return nomeOperadora;
-	}
-	public String getCategoria() {
-		return categoria;
-	}
-	public void setCodigo(Long codigo) {
-		this.codigo = codigo;
-	}
-	public void setNomeOperadora(String nomeOperadora) {
-		this.nomeOperadora = nomeOperadora;
-	}
-	public void setCategoria(String categoria) {
-		this.categoria = categoria;
-	}
-	public BigDecimal getPreco() {
-		return preco;
-	}
-	public void setPreco(BigDecimal preco) {
-		this.preco = preco;
-	}
 
 
 }

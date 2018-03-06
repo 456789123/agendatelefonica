@@ -5,6 +5,11 @@ import java.util.Calendar;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import lombok.Getter;
+import lombok.Setter;
+
+
+@Getter @Setter
 public class ContatoVO implements Serializable {
 
 	private static final long serialVersionUID = 7144056839669386760L;
@@ -25,36 +30,5 @@ public class ContatoVO implements Serializable {
 	private OperadoraVO operadora;
 
 
-
-	public Long getCodigo() {
-		return codigo;
-	}
-	public String getNome() {
-		return nome;
-	}
-	public String getTelefone() {
-		return telefone;
-	}
-	public Calendar getData() {
-		return data;
-	}
-	public void setCodigo(Long codigo) {
-		this.codigo = codigo;
-	}
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-	public void setTelefone(String telefone) {
-		this.telefone = telefone;
-	}
-	public void setData(Calendar data) {
-		this.data = data;
-	}
-	public OperadoraVO getOperadora() {
-		return operadora;
-	}
-	public void setOperadora(OperadoraVO operadora) {
-		this.operadora = operadora;
-	}
 
 }
