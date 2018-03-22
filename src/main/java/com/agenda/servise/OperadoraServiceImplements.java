@@ -21,12 +21,7 @@ public class OperadoraServiceImplements implements OperadoraService {
 		List<OperadoraVO> lista = new ArrayList<>();
 
 		for(Operadora o: operadoraRepositorio.findAll()) {
-			OperadoraVO vo = new OperadoraVO();
-			vo.setCodigo(o.getCodigo());
-			vo.setNome(o.getNomeOperadora());
-			vo.setCategoria(o.getCategoria());
-			vo.setPreco(o.getPreco());
-			lista.add(vo);
+			lista.add( new OperadoraVO( o ) );
 		}
 
 		return lista;

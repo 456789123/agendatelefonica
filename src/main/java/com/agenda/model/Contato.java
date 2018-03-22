@@ -14,6 +14,8 @@ import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import com.agenda.vo.ContatoVO;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -44,6 +46,15 @@ public class Contato implements Serializable {
 	@JoinColumn(name="COD_OPERADORA")
 	private Operadora operadora;
 
+	public Contato( ) { }
+
+	public Contato( ContatoVO vo, Operadora op ) {
+		this.codigo       = vo.getCodigo( );
+		this.nome         = vo.getNome( );
+		this.telefone     = vo.getTelefone( );
+		this.dataCadastro = vo.getData( );
+		this.operadora    = op;
+	}
 
 
 }

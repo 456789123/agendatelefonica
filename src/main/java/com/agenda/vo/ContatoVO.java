@@ -3,6 +3,7 @@ package com.agenda.vo;
 import java.io.Serializable;
 import java.util.Calendar;
 
+import com.agenda.model.Contato;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Getter;
@@ -29,6 +30,16 @@ public class ContatoVO implements Serializable {
 	@JsonProperty("operadora")
 	private OperadoraVO operadora;
 
+	public ContatoVO( ) { }
+	
+	public ContatoVO( Contato o, OperadoraVO op ) {
+		
+		this.codigo    = o.getCodigo( );
+		this.nome      = o.getNome( );
+		this.telefone  = o.getTelefone( );
+		this.data      = o.getDataCadastro( );
+		this.operadora = op;
+	}
 
 
 }

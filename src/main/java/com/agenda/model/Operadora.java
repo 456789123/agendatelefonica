@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+import com.agenda.vo.OperadoraVO;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -34,6 +35,15 @@ public class Operadora implements Serializable {
 	@Column(name="PRECO")
 	private BigDecimal preco;
 
+	public Operadora( ) { }
 
+	public Operadora( OperadoraVO vo ) {
+		
+		this.codigo        = vo.getCodigo( );
+		this.nomeOperadora = vo.getNome( );
+		this.categoria     = vo.getCategoria( );
+		this.preco         = vo.getPreco( );
+		
+	}
 
 }

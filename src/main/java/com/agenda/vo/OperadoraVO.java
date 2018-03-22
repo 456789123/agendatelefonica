@@ -3,6 +3,7 @@ package com.agenda.vo;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
+import com.agenda.model.Operadora;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 import lombok.Getter;
@@ -25,5 +26,17 @@ public class OperadoraVO implements Serializable {
 
 	@JsonProperty("preco")
 	private BigDecimal preco;
+	
+	
+	public OperadoraVO( ) {}
 
+	
+	public OperadoraVO( Operadora o ) {
+		
+		this.codigo    = o.getCodigo( );
+		this.nome      = o.getNomeOperadora( );
+		this.categoria = o.getCategoria( );
+		this.preco     = o.getPreco( );
+		
+	}
 }
