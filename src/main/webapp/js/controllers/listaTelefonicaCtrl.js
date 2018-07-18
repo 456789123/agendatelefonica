@@ -67,7 +67,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
 	    console.log("LED não funcionou");
 	})
     };
-
+/*
     $interval(function(){
 		contatosAPI.lerTemperatura().then(function(success) {
 			$scope.temperatura = (success.data.temperature[0]).toFixed(2);
@@ -75,7 +75,7 @@ angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($s
 		    console.log("Aconteceu um problema!!");
 		})
     }, 3000);
-
+*/
     carregarContatos();
     carregarOperadoras();
 });
