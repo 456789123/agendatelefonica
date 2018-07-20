@@ -11,21 +11,26 @@ import org.springframework.security.oauth2.config.annotation.web.configurers.Res
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 	
-	private static final String RESOURCE_ID = "resource_id";
+	static final String RESOURCEIDS = "restservice";
 
 	@Override
 	public void configure(ResourceServerSecurityConfigurer resources) {
-		resources.resourceId(RESOURCE_ID).stateless(false);
+		resources.resourceId(RESOURCEIDS).stateless(false);
 	}
 
 
 	@Override
 	public void configure(HttpSecurity http) throws Exception {
-		http.logout()
+		http.httpBasic()
+		.and()
+		.authorizeRequests()
+		.antMatchers( "/index.html", "/login.html", "/css/**", "/css-geral/**").permitAll()
+		.and()
+		.logout()
 	    .invalidateHttpSession(true)
 	    .clearAuthentication(true)
 	    .and().authorizeRequests()
-	    .antMatchers(HttpMethod.GET, "usuario/**").hasAnyRole("ADMIN")
+	    .antMatchers( HttpMethod.GET, "/usuario/**", "/contatos", "/operadoras" ).hasAnyRole("ADMIN")
 	    .anyRequest().denyAll();
 	}
 

@@ -50,14 +50,14 @@ public class UsuarioServicoImplements implements UsuarioServico {
 	}
 
 	private List<SimpleGrantedAuthority> getAuthority() {
-		return Arrays.asList(new SimpleGrantedAuthority("ROLE_USER"));
+		return Arrays.asList(new SimpleGrantedAuthority("ROLE_ADMIN"));
 	}
 
 	@Override
 	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
 		UsuarioLogin user = repositorio.buscarUsuario( username );
 		if(user == null){
-			throw new UsernameNotFoundException("Invalid username or password.");
+			throw new UsernameNotFoundException("Usuário ou senha invalidos.");
 		}
 		return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), getAuthority());
 	}

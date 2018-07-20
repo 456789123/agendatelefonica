@@ -8,7 +8,7 @@ import com.agenda.model.UsuarioLogin;
 
 public interface UsuarioLoginRepositorio extends JpaRepository< UsuarioLogin, Long > {
 	
-	@Query(" SELECT user FROM UsuarioLogin user WHERE user.username = :username ")
+	@Query(" SELECT user FROM UsuarioLogin user WHERE user.username = :username OR user.email = :username")
 	public UsuarioLogin buscarUsuario( @Param("username") String username );
 
 }

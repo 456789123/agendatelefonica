@@ -1,6 +1,5 @@
 package com.agenda.model;
 
-import java.io.Serializable;
 import java.util.Calendar;
 
 import javax.persistence.Column;
@@ -11,6 +10,8 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
+import org.springframework.security.core.GrantedAuthority;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -19,11 +20,10 @@ import lombok.Setter;
 @Entity
 @Table(name="TB_USUARIO_LOGIN")
 @SequenceGenerator( name = "cod_seq_usuario", sequenceName = "cod_seq_usuario", allocationSize = 1, initialValue = 1)
-public class UsuarioLogin implements Serializable {
+public class UsuarioLogin implements GrantedAuthority {
 
 
-	private static final long serialVersionUID = 6659584858323547180L;
-
+	private static final long serialVersionUID = -9014242407665946429L;
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator = "cod_seq_usuario" )
@@ -53,4 +53,9 @@ public class UsuarioLogin implements Serializable {
 
 	@Column(name="ATIVADO")
 	private String ativado;
+
+	@Override
+	public String getAuthority() {
+		return this.username;
+	}
 }
