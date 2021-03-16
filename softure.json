@@ -1,0 +1,689 @@
+{
+	"exames":[
+		{
+			"titulo": "TOMOGRAFIA COMPUTADORIZADA | TECNOLOGIA",
+			"conteudo": "O uso da tomografia computadorizada 3D oferece o máximo de segurança que a tecnologia pode oferecer aos profissionais visando o benefício dos pacientes"
+		},
+		{
+			"titulo": "EXAME PERIAPICAL DIGITAL",
+			"conteudo": "Feito com a técnica do paralelismo o bissetriz, possibilita uma visão detalhada dos elementos dentais da região de incidência, espaço pericementário, lâmina dura e tecido ósseo adjacente."
+		},
+		{
+			"titulo": "EXAME INTERPROXIMAL DIGITAL",
+			"conteudo": "Também conhecida como técnica bitewing, está indicada principalmente para pesquisa de cárie nas superfícies próximais, visualização da adaptação de coroas e restaurações identificação de excessos marginais, presença de cálculos interprosimais e exame das cristas alveolares."
+		},
+		{
+			"titulo": "EXAME PANORÂMICO DIGITAL",
+			"conteudo": "O exame é de fácil execução e permite a avaliação do complexo maxilo-mandibular com reduzida dose de radiação. Como exame inicial ou de rotina, tem indicação em todas as especialidades da odontologia"
+		},
+		{
+			"titulo": "INTEGRAÇÃO SIRONA",
+			"conteudo": "Oferecemos um serviço de consultoria para profissionais parceiros que buscam uma integração entre a radiologia e o CEREC para obtenção de guias para a Implantodontia."
+		},
+		{
+			"titulo": "EXAME TELERRADIOGRAFIA LATERAL DIGITAL",
+			"conteudo": "É uma radiografia lateral do crânio onde a cabeça do paciente é posicionada em perfil através do cefalostato. Junto às estruturas ósseas do crânio também visualiza-se as partes moles do perfil."
+		},
+		{
+			"titulo": "EXAME TELERRADIOGRAFIA FRONTAL DIGITAL",
+			"conteudo": "Nesta incidência busca-se examinar áreas no sentido póstero-anterior auxiliando junto com outras radiografias na localização de áreas patológicas, fraturas mandibulares."
+		},
+		{
+			"titulo": "EXAME CARPAL DIGITAL",
+			"conteudo": "É realizada uma radiografia da mão e punho para determinar o estágio de crescimento do paciente. Através desse exame pode-se avaliar a relação entre sua atual fase de crescimento e o pico de crescimento da puberdade, fornecendo informações sobre a o potencial e previsão cronológica de crescimento máximo."
+		},
+		{
+			"titulo": "EXAMES DIGITAIS",
+			"conteudo": "Com os exames digitais, o paciente tem o resultado instantâneo do exame não necessitando perder tempo aguardando a revelação do filme. Além da redução do tempo de espera, esse tipo de exame contribui com a diminuição do impacto ambiental, pois elimina completamente a utilização de produtos químicos consideravelmente poluentes e gera economia no consumo de água."
+		},
+		{
+			"titulo": "EXAME DOCUMENTAÇÃO ORTODÔNTICA",
+			"conteudo": "É um conjunto de exames (radiografias, fotografias intra e extra-orais, modelos em gesso das arcadas dentárias e análises cefalométricas) cuja finalidade é proporcionar uma visão abrangente do paciente, permitido o exame do caso inicial com maior detalhamento."
+		},
+		{
+			"titulo": "EXAME DOCUMENTAÇÃO ESTÉTICA",
+			"conteudo": "É um conjunto de exames (radiografias, fotografias intra e extra-orais, modelos em gesso das arcadas dentárias e análises faciais) cuja finalidade é proporcionar uma visão abrangente do sorriso em conjunto com a face do paciente, permitido o exame do caso inicial com maior detalhamento."
+		}
+
+	],
+	"corpoClinico":[
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/quem-01.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/quem-02.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/quem-03.jpg"
+		}
+	],
+	"convenios":[
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-01.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-02.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-03.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-04.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-05.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-06.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-07.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-08.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-09.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-10.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-11.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-12.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-13.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-14.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-15.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-16.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-17.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-18.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-19.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-20.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-21.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-22.jpg"
+		},
+		{
+			"path": "http://www.softure.com.br/sro/exata/imagens/CONV-23.jpg"
+		}
+	],
+	"contato": {
+		"descricao": "Gostaria de saber mais sobre nossos planos e serviços? Gostaria de dar uma dica, fazer um elogio? Entre em contato através dos números ou e-mails abaixo. Temos também um mapa indicando nossa localização caso queira nos fazer uma visista teremos o prazer em recebê-lo.",
+		"unidades": [
+			{
+				"unidade": "116 NORTE - ED. MANACÁ - ASA NORTE",
+				"endereco": "ASA NORTE | 116 NORTE SCLN 116 bloco G, salas 201 a 203, Ed. Manacá. CEP 70773-500. Brasília/DF (Em frente ao Setor Hospitalar Norte)",
+				"telefone": "(61) 3340-3746",
+				"whatsapp": "(61) 9 8683-4407",
+				"path": "",
+				"link": "Asa Norte Superquadra Norte 116 CLN 116 Exata Imagem Odontológica - Asa Norte, Brasília - DF, Brasil",
+				"horarioFuncionamento": "8:30h às 18:00h (sem intervalo para almoço) | Sábado das 8:30h às 12:00h",
+				"email": "atendimento@exataimagem.com.br",
+				"mapId": "ChIJ-auBtI85WpMRJCXTA2Wcf7A"				
+			},
+			{
+				"unidade": "CENTRO SMHN QUADRA 2 - Ed. DR. CRISPIM - ASA NORTE",
+				"endereco": "ASA NORTE | CENTRO SMHN quadra 2, bloco C, sala 201 e 208 Ed. Dr. Crispim. CEP 70710-100.Brasília/DF (Em frente ao HRAN)",
+				"telefone": "(61) 3349-5634",
+				"whatsapp": "(61) 9 8683-4407",
+				"path": "",
+				"link": "Setor Médico Hospitalar Norte Quadra 2 Exata Imagem Odontológica - Brasília, DF, Brasil",
+				"horarioFuncionamento": "8:30h às 18:30h (sem intervalo para almoço) | Sábado das 8:30h às 12:00h",
+				"email": "atendimento@exataimagem.com.br",
+				"mapId": "ChIJLd4Div46WpMRecTHMiE9vac"				
+			}
+		]
+	},
+	"login": "<p>Olá dentista, insira as suas credenciais de acesso.</p><p>Caso não as possua, solicite o seu acesso clicando no botão abaixo.</p>",
+	"banner": [		
+		{
+			"path":"http://www.softure.com.br/sro/exata/imagens/banner-201790920-1.jpg"
+		},
+		{
+			"path":"http://www.softure.com.br/sro/exata/imagens/banner-201790920-2.jpg"
+		}
+	],
+	"sobre": {
+		"banner": "",
+		"conteudo": "<p>A EXATA IMAGEM ODONTOLÓGICA surge com a proposta de oferecer a segurança que a tecnologia pode proporcionar ao profissional para o correto diagnóstico e planejamento do paciente. Temos aparelhos que oferecem ferramentas inovadoras de integração com as mais novas tendências da Odontologia, melhorando os recursos do profissional para um atendimento de excelência.</p>"
+	},
+	"solicitacaoFormulario": [
+		{
+			"title": "INTRA ORAIS",
+			"fields": [
+				{					
+					"label": "PERIAPICAIS",
+					"type": "group",
+					"fields":[
+						{
+							"name": "periapicalTotalDentes",
+							"type": "checkbox",
+							"class": "m-t-0",
+							"label": "TOTAL"
+						},
+						{
+							"name": "periapicalSelecionaDentes",
+							"type": "checkbox",
+							"label": "DENTES SELECIONADOS"
+						}
+					]
+				},
+				{
+					"label": "INTERPROXIMAIS",
+					"type": "group",
+					"fields":[
+						{
+							"name": "interproximalMolar",
+							"type": "checkbox",
+							"label": "MOLARES"
+						},
+						{
+							"name": "interproximalPreMolar",
+							"type": "checkbox",
+							"label": "PRÉ-MOLARES"
+						}
+					]
+				},
+				{
+					"label": "LOCALIZAÇÃO",
+					"type": "group",
+					"fields":[
+						{
+							"name": "localizacaoTecnicaClark",
+							"type": "checkbox",
+							"label": "TÉCNICA DE CLARK"
+						},
+						{
+							"name": "localizacaoRegiao",
+							"type": "text",
+							"label": "REGIÃO"
+						}
+					]
+				},
+				{
+					"name": "periapicalDentes",
+					"type": "denticao",
+					"class": "text-center m-t-0",
+					"label": ""
+				}
+			]
+		},
+		{
+			"title": "EXTRA ORAIS",
+			"fields": [
+				{
+					"label": "PANORÂMICA",
+					"type": "group",
+					"fields":[
+						{
+							"name": "extrabucalOclusao",
+							"type": "checkbox",
+							"label": "PANORÂMICA"
+						},
+						{
+							"name": "extrabucalPanoramicaImplante",
+							"type": "checkbox",
+							"label": "PANORÂMICA COM TRAÇADO PARA IMPLANTE"
+						}
+					]
+				},
+				{
+					"label": "TELERRADIOGRAFIA LATERAL",
+					"type": "group",
+					"fields":[
+						{
+							"name": "extrabucalTeleLateralSem",
+							"type": "checkbox",
+							"label": "SEM TRAÇADO"
+						},
+						{
+							"name": "extrabucalTeleLateralCom",
+							"type": "checkbox",
+							"label": "COM TRAÇADO COMPUTADORIZADO"
+						}
+					]
+				},
+				{
+					"label": "P.A.",
+					"type": "group",
+					"fields":[
+						{
+							"name": "extrabucalPATele",
+							"type": "checkbox",
+							"label": "TELE-FRONTAL | P.A."
+						},
+						{
+							"name": "extrabucalPAIC",
+							"type": "checkbox",
+							"label": "ÍNDICE CARPAL | IDADE ÓSSEA"
+						},
+						{
+							"name": "extrabucalPASeio",
+							"type": "checkbox",
+							"label": "SEIOS DA FACE (WATER'S)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "TOMOGRAFIA",
+			"fields": [
+				{
+					"label": "",
+					"type": "group",
+					"fields": [
+						{
+							"name": "tomografiaImplante",
+							"type": "checkbox",
+							"label": "IMPLANTE"
+						},
+						{
+							"name": "tomografiaFratura",
+							"type": "checkbox",
+							"label": "FRATURA RADICULAR"
+						},
+						{
+							"name": "tomografiaDenteRetido",
+							"type": "checkbox",
+							"label": "DENTE RETIDO"
+						},
+						{
+							"name": "tomografiaMaxila",
+							"type": "checkbox",
+							"label": "MAXILA TOTAL"
+						},
+						{
+							"name": "tomografiaMandibula",
+							"type": "checkbox",
+							"label": "MANDÍBULA TOTAL"
+						},
+						{
+							"name": "tomografiaATM",
+							"type": "checkbox",
+							"label": "ATM BILATERAL (BOCA ABERTA / FECHADA)"
+						},
+						{
+							"name": "tomografiaLocalizacao",
+							"type": "checkbox",
+							"label": "LOCALIZAÇÃO DE SUPRANUMERÁRIO"
+						},
+						{
+							"name": "tomografiaProtocolo",
+							"type": "checkbox",
+							"label": "PROTOCOLO PARA TECIDOS GENGIVAIS"
+						},
+						{
+							"name": "tomografiaAreaPatologica",
+							"type": "checkbox",
+							"label": "ÁREA PATOLÓGICA"
+						},
+						{
+							"name": "tomografiaArcos",
+							"type": "checkbox",
+							"label": "ARCOS ZIGOMÁTICOS"
+						},
+						{
+							"name": "tomografiaSeio",
+							"type": "checkbox",
+							"label": "SEIO MAXILAR"
+						},
+						{
+							"name": "tomografiaPerfuracao",
+							"type": "checkbox",
+							"label": "PERFURAÇÃO / TREPANAÇÃO"
+						},
+						{
+							"name": "tomografiaOutros",
+							"type": "checkbox-text",
+							"label": "OUTROS"
+						},
+						{
+							"name": "tomografiaDenticao",
+							"type": "denticao",
+							"class": "text-center m-t-0",
+							"label": ""
+						}
+					]
+				},				
+				{
+					"label": "FORMATO DE IMPRESSÃO DA TOMOGRAFIA",
+					"type": "group",
+					"fields": [
+						{
+							"name": "formatoPapel",
+							"type": "checkbox",
+							"label": "PAPEL FOTOGRÁFICO (PADRÃO)"
+						},
+						{
+							"name": "formatoCDComArquivo",
+							"type": "checkbox",
+							"label": "CD COM ARQUIVO E INSTALAÇÃO PARA MANIPULAÇÃO DE IMAGENS NO PROGRAMA DA SIRONA"
+						},
+						{
+							"name": "formatoFilme",
+							"type": "checkbox",
+							"label": "FILME RADIOGRÁFICO"
+						},
+						{
+							"name": "formatoPrototipagem",
+							"type": "checkbox",
+							"label": "CD COM ARQUIVO DICOM PARA PROTOTIPAGEM"
+						},
+						{
+							"name": "formatoEnviar",
+							"type": "checkbox",
+							"label": "NÃO IMPRIMIR (ENVIAR TEMPLATES E LAUDOS APENAS NO FORMATO DIGITAL)"
+						},
+						{
+							"name": "formatoIntegrar",
+							"type": "checkbox",
+							"label": "INTEGRAR COM CAD CAM CEREC"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "PROT. CIRURGIA GUIADA",
+			"fields": [
+				{
+					"label": "* Atendimento com horário marcado e exclusivamente na Unidade do Ed. Dr. Crispim",
+					"type": "group",
+					"fields": [
+						{
+							"name": "protCirurgiaGuiadaTomo1",
+							"type": "checkbox",
+							"label": "TOMOGRAFIA DE 1 ARCADA + MODELO DIGITAL *"
+						},
+						{
+							"name": "protCirurgiaGuiadaTomo2",
+							"type": "checkbox",
+							"label": "TOMOGRAFIA DE 2 ARCADAS + ESCANEAMENTO INTRAORAL *"
+						},
+						{
+							"name": "protCirurgiaGuiadaTomoA",
+							"type": "checkbox",
+							"label": "TOMOGRAFIA DA ARCADA + MODELO DIGITAL + GUIA CIRÚRGICO (favor assinalar no odontograma onde o implante será colocado)"
+						},
+						{
+							"name": "protCirurgiaGuiadaDenticao",
+							"type": "denticao",
+							"class": "text-center m-t-0",
+							"label": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "DOCUMENTAÇÃO ORTODÔNTICA",
+			"fields": [
+				{
+					"label": "DOCUMENTAÇÃO ORTODÔNTICA INVISALING (FAVOR MARCAR HORÁRIO)",
+					"type": "group",
+					"fields": [
+						{
+							"name": "documentacaoInvisalignI",
+							"type": "checkbox",
+							"label": "I - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8)"
+						},
+						{
+							"name": "documentacaoInvisalignII",
+							"type": "checkbox",
+							"label": "II - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8) + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoInvisalignIII",
+							"type": "checkbox",
+							"label": "III - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8) + PERIAPICAIS DE INCISIVOS + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoInvisalignIV",
+							"type": "checkbox",
+							"label": "IV - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8) + 14 PERIAPICAIS"
+						},
+						{
+							"name": "documentacaoInvisalignV",
+							"type": "checkbox",
+							"label": "V - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8) + 14 PERIAPICAIS + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoInvisalignVI",
+							"type": "checkbox",
+							"label": "VI - PAN + TELE + ESCANEAMENTO ITERO + FOTOS(8) + PERIAPICAIS DE INCISIVOS"
+						}
+					]
+				},
+				{
+					"label": "DOCUMENTAÇÃO ORTODÔNTICA BIDIMENSIONAL",
+					"type": "group",
+					"fields": [
+						{
+							"name": "documentacaoI",
+							"type": "checkbox",
+							"label": "I - PAN + TELE + MODELO + FOTOS(8)"
+						},
+						{
+							"name": "documentacaoII",
+							"type": "checkbox",
+							"label": "II - PAN + TELE + MODELO + FOTOS(8) + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoIII",
+							"type": "checkbox",
+							"label": "III - PAN + TELE + MODELO + FOTOS(8) + PERIAPICAIS DE INCISIVOS + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoIV",
+							"type": "checkbox",
+							"label": "IV - PAN + TELE + MODELO + FOTOS(8) + 14 PERIAPICAIS"
+						},
+						{
+							"name": "documentacaoV",
+							"type": "checkbox",
+							"label": "V - PAN + TELE + MODELO + FOTOS(8) + 14 PERIAPICAIS + 4 BITE WINGS"
+						},
+						{
+							"name": "documentacaoVI",
+							"type": "checkbox",
+							"label": "VI - PAN + TELE + MODELO + FOTOS(8) + PERIAPICAIS DE INCISIVOS"
+						}
+					]
+				},
+				{
+					"label": "MODELOS",
+					"type": "group",
+					"fields": [
+						{
+							"name": "modelosEstudo",
+							"type": "checkbox",
+							"label": "ESTUDO"
+						},
+						{
+							"name": "modelosTrabalho",
+							"type": "checkbox",
+							"label": "TRABALHO"
+						},
+						{
+							"name": "modelosPlaca",
+							"type": "checkbox",
+							"label": "PLACA DE CLAREAMENTO"
+						},
+						{
+							"name": "modelosEscaneamento",
+							"type": "checkbox",
+							"label": "ESCANEAMENTO ITERO (atendimentos com horário marcado)"
+						}
+					]
+				},
+				{
+					"label": "FOTOGRAFIAS",
+					"type": "group",
+					"fields": [
+						{
+							"name": "fotografiasFrente",
+							"type": "checkbox",
+							"label": "FRENTE / PERFIL (2)"
+						},
+						{
+							"name": "fotografiasSorriso",
+							"type": "checkbox",
+							"label": "SORRISO (1)"
+						},
+						{
+							"name": "fotografiasIntra",
+							"type": "checkbox",
+							"label": "INTRA ORAIS (3)"
+						},
+						{
+							"name": "fotografiasOclusais",
+							"type": "checkbox",
+							"label": "OCLUSAIS (2)"
+						},
+						{
+							"name": "fotografiasOverjet",
+							"type": "checkbox",
+							"label": "OVERJET (2)"
+						},
+						{
+							"name": "fotografiasClose",
+							"type": "checkbox",
+							"label": "CLOSE DO SORRISO (1)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "ANÁLISES CEFALOMÉTRICAS",
+			"fields": [
+				{
+					"name": "analisesUsp",
+					"type": "checkbox",
+					"label": "PADRÃO USP"
+				},
+				{
+					"name": "analisesUnicamp",
+					"type": "checkbox",
+					"label": "UNICAMP"
+				},
+				{
+					"name": "analisesUnesp",
+					"type": "checkbox",
+					"label": "UNESP ARARAQUARA"
+				},
+				{
+					"name": "analisesMC",
+					"type": "checkbox",
+					"label": "MC NAMARA"
+				},
+				{
+					"name": "analisesRicketts",
+					"type": "checkbox",
+					"label": "RICKETTS"
+				},
+				{
+					"name": "analisesJarabak",
+					"type": "checkbox",
+					"label": "JARABAK"
+				},
+				{
+					"name": "analisesRocabado",
+					"type": "checkbox",
+					"label": "ROCABADO"
+				},
+				{
+					"name": "analisesProfis",
+					"type": "checkbox",
+					"label": "PROFIS"
+				},
+				{
+					"name": "analisesOutros",
+					"type": "checkbox-text",
+					"label": "OUTROS"
+				}
+			]
+		},
+		{
+			"title": "Final",
+			"fields": [
+				{
+					"name": "laudo",
+					"type": "radio",
+					"label": "FINALIDADE",
+					"options": [
+						{
+							"label":"INICIAL",
+							"value":"INICIAL",
+							"checked": true
+						},
+						{
+							"label":"CONTROLE",
+							"value":"CONTROLE",
+							"checked": false
+						},
+						{
+							"label":"RETRATAMENTO",
+							"value":"RETRATAMENTO",
+							"checked": false
+						},
+						{
+							"label":"FINAL",
+							"value":"FINAL",
+							"checked": false
+						}
+					]
+				},
+				{
+					"name": "observacao",
+					"type": "text",
+					"label": "OBSERVAÇÕES CLÍNICAS"
+				},
+				{
+					"label": "ENVIAR UMA CÓPIA DA SOLICITAÇÃO DO EXAME PARA O(S) E-MAIL(S)",
+					"type": "group",
+					"fields":[
+						{
+							"name": "emailDentista",
+							"type": "email",
+							"label": "ENVIAR PARA O EMAIL",
+							"config": {
+								"fieldDataDentista": "email"
+							}
+						},
+						{
+							"name": "emailPaciente",
+							"type": "email",
+							"label": "ENVIAR PARA O EMAIL",
+							"config": {
+								
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
