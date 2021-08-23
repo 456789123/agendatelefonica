@@ -1,16 +1,19 @@
 {
 	"usuarios":[
 		{
+			"id":"1",
 			"clinica":"softure",
 			"usuario":"Copernicus",
 			"senha":"astrologia"
 		},
 		{
+			"id":"2",
 			"clinica":"softure",
 			"usuario":"Galileu",
 			"senha":"matematico"
 		},
 		{
+			"id":"3",
 			"clinica":"softure",
 			"usuario":"Newton",
 			"senha":"telescopio"
