@@ -17,6 +17,12 @@
 			"clinica":"softure",
 			"usuario":"Newton",
 			"senha":"telescopio"
+		},
+		{
+			"id":"",
+			"clinica":"eletric",
+			"usuario":"Tesla",
+			"senha":"eletric"
 		}
 	]
 }
