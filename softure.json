@@ -29,6 +29,12 @@
 			"clinica":"eletric",
 			"usuario":"Milikan",
 			"senha":"eletric"
+		},
+		{
+			"id":"6",
+			"clinica":"admin",
+			"usuario":"admin",
+			"senha":"admin"
 		}
 	]
 }
